@@ -54,11 +54,11 @@ public class CountOccurenceOfWords {
     return map;
   }
   
-  /*
+  
   public Map<String, Integer>  SubMap(Map<String, Integer> map){
  	 for (Map.Entry<String, Integer> entry: map){
  }
   }
-  */
+  
 }
 

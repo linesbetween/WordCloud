@@ -49,16 +49,17 @@ public class CountOccurenceOfWords {
     
 
     // Display key and value for each entry
-   // map.forEach((k, v) -> System.out.println(k + "\t" + v));
+    map.forEach((k, v) -> System.out.println(k + "\t" + v));
     
     return map;
   }
   
-  
+  /*
   public Map<String, Integer>  SubMap(Map<String, Integer> map){
  	 for (Map.Entry<String, Integer> entry: map){
  }
   }
+  */
   
 }
 

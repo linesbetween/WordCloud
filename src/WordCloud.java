@@ -46,7 +46,9 @@ public class WordCloud extends Application {
     	Label label = new Label(entry.getKey());
     	label.setTextAlignment(TextAlignment.CENTER);//does nothing...
     	label.setFont(Font.font("Times New Roman",
-    	FontWeight.BOLD, FontPosture.ITALIC, (entry.getValue()*2)));
+    	FontWeight.BOLD, FontPosture.ITALIC, (entry.getValue()*1.5+8)));
+    	
+    	label.setTextFill( new Color(0.8/entry.getValue()+0.2, 0.6/entry.getValue(), 0.2/entry.getValue(),1.0));
     	pane.add(label, i%row, i/col);
     	i++;
     }

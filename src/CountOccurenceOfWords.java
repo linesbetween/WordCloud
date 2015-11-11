@@ -49,7 +49,7 @@ public class CountOccurenceOfWords {
     
 
     // Display key and value for each entry
-   // map.forEach((k, v) -> System.out.println(k + "\t" + v));
+    map.forEach((k, v) -> System.out.println(k + "\t" + v));
     
     return map;
   }
@@ -60,5 +60,6 @@ public class CountOccurenceOfWords {
  }
   }
   */
+  
 }
 
